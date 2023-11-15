@@ -21,15 +21,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` *🤖 The Mystic Bot* 🤖
+    const str = ` *💖𝗡𝗔𝗡𝗜 𝗕𝗢𝗧 𝗗𝗢𝗠𝗜𝗡𝗔💖*
 
  *👋 Hola, ${taguser}*
 
- *🧑‍💻 Prop.:* Bruno Sobrino
- *📱 WA:* +5219992095479
- *🤖 Bot 1:* +5219991402134
- *🤖 Bot 2:* +5219993404349
- *🏦 PayPal:* paypal.me/TheShadowBrokers133
+ *🧑‍💻 Creador.:🔥𝐏𝐀𝐂𝐇𝐎𝐍 𝐃𝐎𝐌𝐈𝐍𝐀🔥* 
+ *📱 WA:* +525634990524
+ *🤖 Bot 1:* +525646735383
+ *🤖 Bot 2:* +525646735383 
+ *🏦 PayPal:* https://www.paypal.me/pachonff
 
 
  *📆 Fecha:* ${date}
