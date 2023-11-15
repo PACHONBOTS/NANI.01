@@ -23,22 +23,21 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = ` *💖𝗡𝗔𝗡𝗜 𝗕𝗢𝗧 𝗗𝗢𝗠𝗜𝗡𝗔💖*
 
- *👋 Hola, ${taguser}*
-
+╔════════════════════╗
+  *👋 Hola, ${taguser}*
+╚════════════════════╝
  *🧑‍💻 Creador.:🔥𝐏𝐀𝐂𝐇𝐎𝐍 𝐃𝐎𝐌𝐈𝐍𝐀🔥* 
  *📱 WA:* +525634990524
  *🤖 Bot 1:* +525646735383
  *🤖 Bot 2:* +525646735383 
  *🏦 PayPal:* https://www.paypal.me/pachonff
-
-
+◆═════════●★●═════════◆═════════●★●═════════◆
  *📆 Fecha:* ${date}
  *⏳ Uptime:* ${uptime}
  *🧑 Usuarios regs:* ${rtotalreg}
  *👥 Usuarios totales:* ${rtotal}
  *🤖 Tipo de bot:* ${(conn.user.jid == global.conn.user.jid ? '' : `Sub-bot de:\n+${global.conn.user.jid.split`@`[0]}`) || 'No es sub-bot'}
-
-
+◆═════════●★●═════════◆═════════●★●═════════◆
  *< INFO. DEL USUARIO />* 👤
 
  *📈 Nivel:* ${level}
@@ -48,126 +47,112 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  *🪙 MysticCoins:* ${money}
  *🎟️ Tokens:* ${joincount}
  *🎫 Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
-
-
  _*< LISTA DE COMANDOS />*_ 📄
-
- - Presione en _Leer más_ para ver la lista de comandos${readMore}
- 
-
- *< CMDS DEL BOT />* 🤖
-
-  ▢ _${usedPrefix}terminosycondiciones_
-  ▢ _${usedPrefix}grupos_
-  ▢ _${usedPrefix}estado_
-  ▢ _${usedPrefix}infobot_
-  ▢ _${usedPrefix}speedtest_
-  ▢ _${usedPrefix}donar_
-  ▢ _${usedPrefix}owner_
-  ▢ _${usedPrefix}script_
-  ▢ _${usedPrefix}reporte *<txt>*_
-  ▢ _${usedPrefix}join *<wagp_url>*_
-  ▢ _${usedPrefix}fixmsgespera_
-  ▢ _Bot_ (sin prefijo)
-
-
+◆═════════●★●═════════◆═════════●★●═════════◆
+- Presione en _Leer más_ para ver la lista de comandos${readMore}
+  *< CMDS DEL BOT />* 🤖
+  🔍 _${usedPrefix}terminosycondiciones_
+  🔍 _${usedPrefix}grupos_
+  🔍 _${usedPrefix}estado_
+  🔍 _${usedPrefix}infobot_
+  🔍 _${usedPrefix}speedtest_
+  🔍 _${usedPrefix}donar_
+  🔍 _${usedPrefix}owner_
+  🔍 _${usedPrefix}script_
+  🔍 _${usedPrefix}reporte *<txt>*_
+  🔍 _${usedPrefix}join *<wagp_url>*_
+  🔍 _${usedPrefix}fixmsgespera_
+  🔍 _Bot_ (sin prefijo)
+  ◆═════════●★●═════════◆
   *< MENUS ADICIONALES />*
-  ▢ _${usedPrefix}menuaudios_
-  ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_
-
-
- *< SUB-BOTS />* 🤖
-
-  ▢ _${usedPrefix}serbot --code_
-  ▢ _${usedPrefix}serbot_
-  ▢ _${usedPrefix}deletebot_
-  ▢ _${usedPrefix}token_
-  ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-
-  ▢ _${usedPrefix}enable restrict_
-  ▢ _${usedPrefix}disable restrict_
-  ▢ _${usedPrefix}enable autoread_
-  ▢ _${usedPrefix}disable autoread_
-  ▢ _${usedPrefix}enable antispam_
-  ▢ _${usedPrefix}disable antispam_
-  ▢ _${usedPrefix}enable anticall_
-  ▢ _${usedPrefix}disable anticall_
-  ▢ _${usedPrefix}enable modoia_
-  ▢ _${usedPrefix}disable modoia_
-  ▢ _${usedPrefix}enable audios_bot_
-  ▢ _${usedPrefix}disable audios_bot_
-  ▢ _${usedPrefix}enable antiprivado_
-  ▢ _${usedPrefix}disable antiprivado_
-  
-
- *< JUEGOS />* 🕹️
-
-  ▢ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
-  ▢ _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
-  ▢ _${usedPrefix}ppt *<papel / tijera /piedra>*_
-  ▢ _${usedPrefix}prostituto *<nombre / @tag>*_
-  ▢ _${usedPrefix}prostituta *<nombre / @tag>*_
-  ▢ _${usedPrefix}gay2 *<nombre / @tag>*_
-  ▢ _${usedPrefix}lesbiana *<nombre / @tag>*_
-  ▢ _${usedPrefix}pajero *<nombre / @tag>*_
-  ▢ _${usedPrefix}pajera *<nombre / @tag>*_
-  ▢ _${usedPrefix}puto *<nombre / @tag>*_
-  ▢ _${usedPrefix}puta *<nombre / @tag>*_
-  ▢ _${usedPrefix}manco *<nombre / @tag>*_
-  ▢ _${usedPrefix}manca *<nombre / @tag>*_
-  ▢ _${usedPrefix}rata *<nombre / @tag>*_
-  ▢ _${usedPrefix}love *<nombre / @tag>*_
-  ▢ _${usedPrefix}doxear *<nombre / @tag>*_
-  ▢ _${usedPrefix}pregunta *<txt>*_
-  ▢ _${usedPrefix}suitpvp *<@tag>*_
-  ▢ _${usedPrefix}slot *<apuesta>*_
-  ▢ _${usedPrefix}ttt *<nombre sala>*_
-  ▢ _${usedPrefix}delttt_
-  ▢ _${usedPrefix}acertijo_
-  ▢ _${usedPrefix}simi *<txt>*_
-  ▢ _${usedPrefix}top *<txt>*_
-  ▢ _${usedPrefix}topgays_
-  ▢ _${usedPrefix}topotakus_
-  ▢ _${usedPrefix}formarpareja_
-  ▢ _${usedPrefix}verdad_
-  ▢ _${usedPrefix}reto_
-  ▢ _${usedPrefix}cancion_
-  ▢ _${usedPrefix}pista_
-  ▢ _${usedPrefix}akinator_
-  ▢ _${usedPrefix}wordfind_
-
-
+  🔍 _${usedPrefix}menuaudios_
+  🔍 _${usedPrefix}menuanimes_
+  🔍 _${usedPrefix}labiblia_
+  ◆═════════●★●═════════◆
+  *< SUB-BOTS />* 🤖
+  🚫 _${usedPrefix}serbot --code_
+  🚫 _${usedPrefix}serbot_
+  🚫 _${usedPrefix}deletebot_
+  🚫 _${usedPrefix}token_
+  🚫 _${usedPrefix}stop_
+  🚫 _${usedPrefix}bots_
+  ◆═════════●★●═════════◆
+  *< JUEGOS />* 🎮
+  🎮 _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
+  🎮 _${usedPrefix}fake *<txt1> <@tag> <txt2>*_
+  🎮 _${usedPrefix}ppt *<papel / tijera /piedra>*_
+  🎮 _${usedPrefix}prostituto *<nombre / @tag>*_
+  🎮 _${usedPrefix}prostituta *<nombre / @tag>*_
+  🎮 _${usedPrefix}gay2 *<nombre / @tag>*_
+  🎮 _${usedPrefix}lesbiana *<nombre / @tag>*_
+  🎮 _${usedPrefix}pajero *<nombre / @tag>*_
+  🎮 _${usedPrefix}pajera *<nombre / @tag>*_
+  🎮 _${usedPrefix}puto *<nombre / @tag>*_
+  🎮 _${usedPrefix}puta *<nombre / @tag>*_
+  🎮 _${usedPrefix}manco *<nombre / @tag>*_
+  🎮 _${usedPrefix}manca *<nombre / @tag>*_
+  🎮 _${usedPrefix}rata *<nombre / @tag>*_
+  🎮 _${usedPrefix}love *<nombre / @tag>*_
+  🎮 _${usedPrefix}doxear *<nombre / @tag>*_
+  🎮 _${usedPrefix}pregunta *<txt>*_
+  🎮 _${usedPrefix}suitpvp *<@tag>*_
+  🎮 _${usedPrefix}slot *<apuesta>*_
+  🎮 _${usedPrefix}ttt *<nombre sala>*_
+  🎮 _${usedPrefix}delttt_
+  🎮 _${usedPrefix}acertijo_
+  🎮 _${usedPrefix}simi *<txt>*_
+  🎮 _${usedPrefix}top *<txt>*_
+  🎮 _${usedPrefix}topgays_
+  🎮 _${usedPrefix}topotakus_
+  🎮 _${usedPrefix}formarpareja_
+  🎮 _${usedPrefix}verdad_
+  🎮 _${usedPrefix}reto_
+  🎮 _${usedPrefix}cancion_
+  🎮 _${usedPrefix}pista_
+  🎮 _${usedPrefix}akinator_
+  🎮 _${usedPrefix}wordfind_
+  ◆═════════●★●═════════◆
  *< ACT./DESACT. FUNCIONES />* *️⃣
-
-  ▢ _${usedPrefix}enable *welcome*_
-  ▢ _${usedPrefix}disable *welcome*_
-  ▢ _${usedPrefix}enable *modohorny*_
-  ▢ _${usedPrefix}disable *modohorny*_
-  ▢ _${usedPrefix}enable *antilink*_
-  ▢ _${usedPrefix}disable *antilink*_
-  ▢ _${usedPrefix}enable *antilink2*_
-  ▢ _${usedPrefix}disable *antilink2*_
-  ▢ _${usedPrefix}enable *detect*_
-  ▢ _${usedPrefix}disable *detect*_
-  ▢ _${usedPrefix}enable *audios*_
-  ▢ _${usedPrefix}disable *audios*_
-  ▢ _${usedPrefix}enable *autosticker*_
-  ▢ _${usedPrefix}disable *autosticker*_
-  ▢ _${usedPrefix}enable *antiviewonce*_
-  ▢ _${usedPrefix}disable *antiviewonce*_
-  ▢ _${usedPrefix}enable *antitoxic*_
-  ▢ _${usedPrefix}disable *antitoxic*_
-  ▢ _${usedPrefix}enable *antitraba*_
-  ▢ _${usedPrefix}disable *antitraba*_
-  ▢ _${usedPrefix}enable *antiarabes*_
-  ▢ _${usedPrefix}disable *antiarabes*_
-  ▢ _${usedPrefix}enable *modoadmin*_
-  ▢ _${usedPrefix}disable *modoadmin*_
-  ▢ _${usedPrefix}enable *antidelete*_
-  ▢ _${usedPrefix}disable *antidelete*_
-
+  ✅ _${usedPrefix}enable *welcome*_
+  ❌ _${usedPrefix}disable *welcome*_
+  ✅ _${usedPrefix}enable *modohorny*_
+  ❌ _${usedPrefix}disable *modohorny*_
+  ✅ _${usedPrefix}enable *antilink*_
+  ❌ _${usedPrefix}disable *antilink*_
+  ✅ _${usedPrefix}enable *antilink2*_
+  ❌ _${usedPrefix}disable *antilink2*_
+  ✅ _${usedPrefix}enable *detect*_
+  ❌ _${usedPrefix}disable *detect*_
+  ✅ _${usedPrefix}enable *audios*_
+  ❌ _${usedPrefix}disable *audios*_
+  ✅ _${usedPrefix}enable *autosticker*_
+  ❌ _${usedPrefix}disable *autosticker*_
+  ✅ _${usedPrefix}enable *antiviewonce*_
+  ❌ _${usedPrefix}disable *antiviewonce*_
+  ✅ _${usedPrefix}enable *antitoxic*_
+  ❌ _${usedPrefix}disable *antitoxic*_
+  ✅ _${usedPrefix}enable *antitraba*_
+  ❌ _${usedPrefix}disable *antitraba*_
+  ✅ _${usedPrefix}enable *antiarabes*_
+  ❌ _${usedPrefix}disable *antiarabes*_
+  ✅ _${usedPrefix}enable *modoadmin*_
+  ❌ _${usedPrefix}disable *modoadmin*_
+  ✅ _${usedPrefix}enable *antidelete*_
+  ❌ _${usedPrefix}disable *antidelete*_
+  ✅ _${usedPrefix}enable restrict_
+  ❌ _${usedPrefix}disable restrict_
+  ✅ _${usedPrefix}enable autoread_
+  ❌ _${usedPrefix}disable autoread_
+  ✅ _${usedPrefix}enable antispam_
+  ❌ _${usedPrefix}disable antispam_
+  ✅ _${usedPrefix}enable anticall_
+  ❌ _${usedPrefix}disable anticall_
+  ✅ _${usedPrefix}enable modoia_
+  ❌ _${usedPrefix}disable modoia_
+  ✅ _${usedPrefix}enable audios_bot_
+  ❌ _${usedPrefix}disable audios_bot_
+  ✅ _${usedPrefix}enable antiprivado_
+  ❌ _${usedPrefix}disabl
 
  *< DESCARGAS />* 📥
 
