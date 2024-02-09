@@ -31,7 +31,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  *🤖 Bot 1:* +525646735383
  *🤖 Bot 2:* +525646735383 
  *🏦 PayPal:* https://www.paypal.me/pachonff
-◆═════════●★●═════════◆═════════●★●═════════◆
+◆═════════●★●═════════◆★●═════════◆
  *📆 Fecha:* ${date}
  *⏳ Uptime:* ${uptime}
  *🧑 Usuarios regs:* ${rtotalreg}
@@ -48,7 +48,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  *🎟️ Tokens:* ${joincount}
  *🎫 Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  _*< LISTA DE COMANDOS />*_ 📄
-◆═════════●★●═════════◆═════════●★●═════════◆
+◆═════════●★●═════════◆★●═════════◆
 - Presione en _Leer más_ para ver la lista de comandos${readMore}
   *< CMDS DEL BOT />* 🤖
   🔍 _${usedPrefix}terminosycondiciones_
